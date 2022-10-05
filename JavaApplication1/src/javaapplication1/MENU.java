@@ -78,6 +78,7 @@ public class MENU extends javax.swing.JFrame {
     private void MENUActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MENUActionPerformed
     OPERACIONES v2= new OPERACIONES ();
     v2.setVisible(true);
+    this.setVisible(false);
     }//GEN-LAST:event_MENUActionPerformed
 
     /**
