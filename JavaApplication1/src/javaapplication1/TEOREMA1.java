@@ -29,6 +29,7 @@ public class TEOREMA1 extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         taDatos = new javax.swing.JTextArea();
         MENU = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -83,7 +84,7 @@ public class TEOREMA1 extends javax.swing.JFrame {
         taDatos.setRows(5);
         jScrollPane1.setViewportView(taDatos);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, 290, 180));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 230, 290, 180));
 
         MENU.setBackground(new java.awt.Color(204, 204, 0));
         MENU.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -95,6 +96,16 @@ public class TEOREMA1 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(MENU, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 400, -1, -1));
+
+        jButton3.setBackground(new java.awt.Color(236, 234, 234));
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/PARA BORRAR.png"))); // NOI18N
+        jButton3.setBorder(null);
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 390, 60, 50));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/teorema 1.5.jpeg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 460));
@@ -126,6 +137,12 @@ public class TEOREMA1 extends javax.swing.JFrame {
     T1.setVisible(true);
     this.setVisible(false);
     }//GEN-LAST:event_MENUActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        this.txtNum.setText("");
+        this.txtFact.setText("");
+        this.taDatos.setText("");
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -165,6 +182,7 @@ public class TEOREMA1 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton MENU;
     private javax.swing.JButton RESULTADO;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
