@@ -57,7 +57,7 @@ public class TEOREMA1 extends javax.swing.JFrame {
                 txtFactActionPerformed(evt);
             }
         });
-        getContentPane().add(txtFact, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 183, 60, 30));
+        getContentPane().add(txtFact, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 183, 170, 30));
 
         jLabel4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 204));

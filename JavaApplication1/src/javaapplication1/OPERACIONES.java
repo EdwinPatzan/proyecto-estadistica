@@ -46,6 +46,11 @@ public class OPERACIONES extends javax.swing.JFrame {
         });
 
         jButton3.setText("TEOREMA 3");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jButton4.setText("TEOREMA 4");
 
@@ -118,6 +123,12 @@ public class OPERACIONES extends javax.swing.JFrame {
     T2.setVisible(true);
     this.setVisible(false);
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+     Teorema3 T3= new Teorema3  ();
+    T3.setVisible(true);
+    this.setVisible(false);
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     public static void main(String args[]) {
 
