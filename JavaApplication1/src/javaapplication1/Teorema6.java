@@ -27,21 +27,191 @@ public class Teorema6 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        texfactorial = new javax.swing.JTextField();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        texfactorial2 = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        texfactorial3 = new javax.swing.JTextField();
+        texfactorial4 = new javax.swing.JTextField();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        resultado = new javax.swing.JToggleButton();
+        txt_resultado = new javax.swing.JTextField();
+        jLabel11 = new javax.swing.JLabel();
+        MENU = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel2.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 1, 24)); // NOI18N
+        jLabel2.setText("TEOREMA 6");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 20, -1, -1));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/linea2.png"))); // NOI18N
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 160, 200, 30));
+
+        texfactorial.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                texfactorialActionPerformed(evt);
+            }
+        });
+        getContentPane().add(texfactorial, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 130, 40, 30));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/factory.png"))); // NOI18N
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 130, 50, 30));
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/teorema 6 formula.jpeg"))); // NOI18N
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 240, 250, 160));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/teorema 6 formula2.jpeg"))); // NOI18N
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 120, 50, 70));
+
+        texfactorial2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                texfactorial2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(texfactorial2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 190, 30, 40));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/parentesis2.jpeg"))); // NOI18N
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 190, 30, 50));
+
+        texfactorial3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                texfactorial3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(texfactorial3, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 200, 30, 30));
+
+        texfactorial4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                texfactorial4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(texfactorial4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 200, 30, 30));
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/parentesis derecho.jpeg"))); // NOI18N
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 190, 20, 50));
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/menos.png"))); // NOI18N
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 200, 40, 30));
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/factory.png"))); // NOI18N
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 190, 50, 40));
+
+        resultado.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        resultado.setText("RESULTADO");
+        resultado.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                resultadoActionPerformed(evt);
+            }
+        });
+        getContentPane().add(resultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 160, 160, -1));
+
+        txt_resultado.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_resultadoActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txt_resultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 150, 50, 50));
+
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/factory.png"))); // NOI18N
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 190, 50, 40));
+
+        MENU.setBackground(new java.awt.Color(204, 204, 0));
+        MENU.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        MENU.setForeground(new java.awt.Color(204, 51, 0));
+        MENU.setText("MENU");
+        MENU.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MENUActionPerformed(evt);
+            }
+        });
+        getContentPane().add(MENU, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 300, -1, -1));
+
+        jButton3.setBackground(new java.awt.Color(236, 234, 234));
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/PARA BORRAR.png"))); // NOI18N
+        jButton3.setBorder(null);
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 290, 60, 50));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/javaapplication1/teorema 6.jpeg"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 770, 440));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void texfactorialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texfactorialActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_texfactorialActionPerformed
+
+    private void texfactorial2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texfactorial2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_texfactorial2ActionPerformed
+
+    private void txt_resultadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_resultadoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt_resultadoActionPerformed
+
+    private void texfactorial4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texfactorial4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_texfactorial4ActionPerformed
+
+    private void texfactorial3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texfactorial3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_texfactorial3ActionPerformed
+
+    private void MENUActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MENUActionPerformed
+        OPERACIONES T1= new OPERACIONES  ();
+        T1.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_MENUActionPerformed
+
+    private void resultadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resultadoActionPerformed
+    int num = Integer.parseInt(texfactorial.getText());
+        int num1 = Integer.parseInt(texfactorial2.getText());
+        int num2 = Integer.parseInt(texfactorial3.getText());
+        int num3 = Integer.parseInt(texfactorial4.getText());
+        double fact=1;
+        double mult;
+        double r=1;
+        double resta;
+        double fact1=1;
+        double resultado;
+        
+        
+        for (int i=1; i<=num; i++){
+             fact=fact*i;
+        }
+        for (int i=1; i<=num1; i++){
+             r=r*i;
+        }
+        resta=(num2-num3);
+        for (int j=1; j<=resta; j++){
+             fact1=fact1*j;
+        }
+        mult=r*fact1;
+        resultado=(fact/mult);
+        txt_resultado.setText("" + resultado);
+    }//GEN-LAST:event_resultadoActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        this.texfactorial.setText("");
+        this.texfactorial2.setText("");
+        this.texfactorial3.setText("");
+        this.texfactorial4.setText("");
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -79,5 +249,24 @@ public class Teorema6 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton MENU;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JToggleButton resultado;
+    private javax.swing.JTextField texfactorial;
+    private javax.swing.JTextField texfactorial2;
+    private javax.swing.JTextField texfactorial3;
+    private javax.swing.JTextField texfactorial4;
+    private javax.swing.JTextField txt_resultado;
     // End of variables declaration//GEN-END:variables
 }
